@@ -10,7 +10,7 @@ function print_surface_plot(x1, x2, y, plotname, filename)
     title(plotname,                'Interpreter', 'latex', 'FontSize', 12);
     xlabel('$e_x, \rm m$',         'Interpreter', 'latex', 'FontSize', 12);
     ylabel('$\dot{e}_x, \rm m/s$', 'Interpreter', 'latex', 'FontSize', 12);
-    zlabel('$\omega$, \rm rad/s',  'Interpreter', 'latex', 'FontSize', 12);
+    zlabel('$u, \rm V$',           'Interpreter', 'latex', 'FontSize', 12);
     
     if (~exist('../../graphs', 'dir'))
         mkdir('../../graphs');
